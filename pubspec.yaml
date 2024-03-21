@@ -1,0 +1,77 @@
+name: vibra_verve
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.2.2
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  google_sign_in: ^5.0.7
+  pin_code_fields: ^7.3.0
+  flutter_rating_bar: ^4.0.0
+  country_pickers: ^2.0.0
+  smooth_page_indicator: ^1.0.0+2
+  sms_autofill: ^2.0.0
+  carousel_slider: ^4.0.0
+  table_calendar: ^3.0.6
+  another_stepper: ^1.2.2
+  intl: ^0.18.0
+  flutter_localization: ^0.2.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterBold.ttf
+          weight: 700
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+        - asset: assets/fonts/InterBlack.ttf
+          weight: 900
+    - family: Philosopher
+      fonts: 
+        - asset: assets/fonts/PhilosopherBold.ttf
+          weight: 700
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoRomanCondensedRegular.ttf
+          weight: 400
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsBold.ttf
+          weight: 700
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PoppinsLight.ttf
+          weight: 300
+    - family: Nunito
+      fonts: 
+        - asset: assets/fonts/NunitoRegular.ttf
+          weight: 400
+    - family: Montserrat
+      fonts: 
+        - asset: assets/fonts/MontserratRomanMedium.ttf
+          weight: 500
+    - family: DM Sans
+      fonts: 
+        - asset: assets/fonts/DMSansMedium.ttf
+          weight: 500
+        - asset: assets/fonts/DMSansRegular.ttf
+          weight: 400
+        - asset: assets/fonts/DMSansBold.ttf
+          weight: 700
