@@ -21,67 +21,78 @@ Flutter SDK Version 3.3.0 or greater.
 Read our guidelines to increase the accuracy of design-to-code conversion by optimizing Figma designs.
 https://docs.dhiwise.com/docs/Designguidelines/intro
 
-### Check the UI of the entire app
+#  Vibra Verbe
 
-Check the UI of all the app screens from a single place by setting up the 'initialRoute'  to AppNavigation in the AppRoutes.dart file.
+A dynamic Flutter app with smooth UI flow, Google authentication, and solid architecture.
 
-### Google authentication configuration
+---
 
-Steps:
-- Follow the steps on https://pub.dev/packages/google_sign_in for Google sign-in.
-- For iOS:
-    - Download the GoogleService-Info.plist  file. Drag and drop the downloaded file into the Runner subfolder and update Info.plist  file.
+##  Table of Contents
 
-### Application structure
+- [Overview](#-overview)  
+- [Demo / Screenshots](#-demo--screenshots)  
+- [Features](#-features)  
+- [Tech Stack & Tools](#-tech-stack--tools)  
+- [Setup & Installation](#-setup--installation)  
+  - [Prerequisites](#prerequisites)  
+  - [Clone & Install](#clone--install)  
+- [Authentication Guide](#-authentication-guide)  
+- [Project Structure](#-project-structure)  
+- [Guidelines](#-guidelines)  
+  - [Figma Design](#figma-design)  
+  - [Code Formatting & Readability](#code-formatting--readability)  
+- [Support & Community](#-support--community)  
+- [License](#-license)  
+- [Author](#-author)
 
-After successful build, your application structure should look like this:
+---
 
-```
-.
-├── android                         - It contains files required to run the application on an Android platform.
-├── assets                          - It contains all images and fonts of your application.
-├── ios                             - It contains files required to run the application on an iOS platform.
-├── lib                             - Most important folder in the application, used to write most of the Dart code..
-    ├── main.dart                   - Starting point of the application
-    ├── core
-    │   ├── app_export.dart         - It contains commonly used file imports
-    │   ├── constants               - It contains all constants classes
-    │   ├── errors                  - It contains error handling classes                  
-    │   ├── network                 - It contains network-related classes
-    │   └── utils                   - It contains common files and utilities of the application
-    ├── data
-    │   ├── apiClient               - It contains API calling methods 
-    │   ├── models                  - It contains request/response models 
-    │   └── repository              - Network repository
-    ├── localization                - It contains localization classes
-    ├── presentation                - It contains widgets of the screens with their controllers and the models of the whole application.
-    ├── routes                      - It contains all the routes of the application
-    └── theme                       - It contains app theme and decoration classes
-    └── widgets                     - It contains all custom widget classes
-```
+##  Overview
 
-### How to format your code?
+**Vibra Verbe** is a Flutter application designed for a clean UI experience, seamless Google sign-in, and scalable architecture.
 
-- if your code is not formatted then run following command in your terminal to format code
-  ```
-  dart format .
-  ```
+---
 
-### How you can improve code readability?
+##  Demo / Screenshots
 
-Resolve the errors and warnings that are shown in the application.
+_Add screenshots or GIFs here to showcase the UI._
 
-### Libraries and tools used
+![App Screenshot](link-to-image-or-gif)
 
-- get - State management
-  https://pub.dev/packages/get
-- connectivity_plus - For status of network connectivity
-  https://pub.dev/packages/connectivity_plus
-- shared_preferences - Provide persistent storage for simple data
-  https://pub.dev/packages/shared_preferences
-- cached_network_image - For storing internet image into cache
-  https://pub.dev/packages/cached_network_image
+---
 
-### Support
+##  Features
 
-If you have any problems or questions, go to our Discord channel, where we will help you as quickly as possible: https://discord.com/invite/rFMnCG5MZ7
+-  Flutter-based cross-platform app  
+-  Google authentication  
+-  Structured, clean architecture (navigation, utilities, data, UI)  
+-  Optimized image caching & network handling  
+-  Designed according to Figma guidelines
+
+---
+
+##  Tech Stack & Tools
+
+| Category         | Technologies & Packages |
+|------------------|--------------------------|
+| Language & SDK   | Dart (>= 2.18), Flutter (>= 3.3) |
+| State Management | get |
+| Connectivity     | connectivity_plus |
+| Storage          | shared_preferences |
+| Image Handling   | cached_network_image |
+| Authentication   | google_sign_in |
+
+---
+
+##  Setup & Installation  
+
+###  Prerequisites  
+- Dart SDK ≥ 2.18  
+- Flutter SDK ≥ 3.3
+
+###  Clone & Install Repository
+```bash
+git clone https://github.com/rajgupta321/Vibra_Verbe.git
+cd Vibra_Verbe
+flutter pub get
+flutter run
