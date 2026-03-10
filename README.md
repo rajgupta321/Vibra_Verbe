@@ -5,6 +5,24 @@ The app integrates authentication, product browsing, cart, checkout, and order t
 
 ---
 
+## 📸 Screenshots
+
+<table>
+<tr>
+<td><img src="screenshots/ss_11.jpg" width="300"/></td>
+<td><img src="screenshots/ss_1.jpg" width="300"/></td>
+<td><img src="screenshots/ss_2.jpg" width="300"/></td>
+<td><img src="screenshots/ss_3.jpg" width="300"/></td>
+<td><img src="screenshots/ss_4.jpg" width="300"/></td>
+<td><img src="screenshots/ss_5.jpg" width="300"/></td>
+<td><img src="screenshots/ss_6.jpg" width="300"/></td>
+<td><img src="screenshots/ss_7.jpg" width="300"/></td>
+<td><img src="screenshots/ss_8.jpg" width="300"/></td>
+<td><img src="screenshots/ss_9.jpg" width="300"/></td>
+<td><img src="screenshots/ss_10.jpg" width="300"/></td>
+</tr>
+</table>
+
 ## ✨ Features
 
 * 🏪 **E-Commerce Essentials**: Browse products, add to cart, wishlist, and checkout
@@ -94,7 +112,7 @@ This project is licensed under the **MIT License**.
 
 Developed with ❤️ using Flutter & GetX.
 
-* **Name:** Your Name
+* **Name:** Raj Gupta
 * **GitHub:** [Rajgupta321](https://github.com/rajgupta321)
 * **LinkedIn:** [Rajgupta](https://linkedin.com/in/raj-gupta-b055a0296)
 
